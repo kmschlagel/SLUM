@@ -1,0 +1,14 @@
+<?php
+
+    $config = array(
+      'host'	=> 'db505127031.db.1and1.com',
+      'username'	=> 'dbo505127031',  //Fill in your username, password and database name.
+      'password'	=> 'SilverFish214',
+      'dbname'          => 'db505127031'
+    );
+
+    $db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['dbname'], $config['username'], $config['password']);
+
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+?>
