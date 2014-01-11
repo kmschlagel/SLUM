@@ -43,24 +43,6 @@
     	
 </div> <!-- /content -->  
 
-<script>
-// Retrieves more recent "message" post from database and displays it
-
-function RetrieveLastPost() {
-  var dataString = 'action=retrieve_post_by_type&post_type=message';
-
-  $.ajax({
-    type: "POST",
-    url: "admin/index.php",
-    data: dataString,
-    dataType: 'json',
-    success: function(data) {
-      $("#main").html(data.content);
-    }
-  })
-};
-RetrieveLastPost();
-
-</script>
+<script type="text/javascript" src="admin/scripts/message.js"></script>
 
 <?php include 'footer.php'; ?>
