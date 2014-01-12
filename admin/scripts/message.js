@@ -42,7 +42,11 @@ function ListMessages() {
     dataType: 'json',
     success: function(data) {
       for (message in data) {
-        $("#posts ul").append("<li value=" + data[message].id + ">" + data[message].title + "</li>");
+        // This date formatting requires the dateFormat jquery library,
+        // which is linked to at the top of message.php
+        var date = $.format.date(data[message].datetime, "MMMM dd, yyyy")
+        $("#posts ul").append("<li value=" + data[message].id + ">" + data[message].title + "<br>"
+                              + date + "</li>");
       }
       RetrieveMessage();
     }

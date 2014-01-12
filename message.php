@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
-        
+<script type='text/javascript' src='scripts/jquery-dateFormat.js'></script>
+
 <div id="content">
 
     <div id="main">
