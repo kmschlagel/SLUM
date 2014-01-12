@@ -430,14 +430,14 @@ div with worship schedule
 
 #worship ul, #posts ul {
 	width: 100%;
-	
 }
 
 #worship li, #posts li {
 	list-style: none;
-	color: #fff;
+	color: #C9A68F;
 	text-align:center;
 	padding: 5px 0px;
+	cursor: pointer;
 }
 
 #worship ul li:first-child {

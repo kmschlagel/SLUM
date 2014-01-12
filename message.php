@@ -31,12 +31,8 @@
          <div id="posts">
          	 <h4>Recent Posts</h4>
          	<ul>
-            	<li><a href="#">"Title of Recent Post" <span>(1.12.14)</span></a></li>
-                <li><a href="#">"Title of Another Post" <span>(1.15.14)</span></a></li>
-                <li><a href="#">"Title of Another Recent Post" <span>(1.17.14)</span></a></li>
-                <li><a href="#">"Title of Another Post" <span>(1.20.14)</span></a></li>
-                <li><a href="#">"Another Post with a Longer Title" <span>(1.24.14)</span></a></li>
-            </ul>
+          <!-- List populated by ListMessages() in message.js -->
+          </ul>
          </div>
                
     </div> <!--end sidebar-->

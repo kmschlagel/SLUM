@@ -115,6 +115,17 @@ if ($action == 'admin login') {
 	//ajax wants array returned as json data, so encode and echo.
 	echo json_encode($content);
 
+  // Get list of messages for sidebar on Message From Mary
+} else if ($action == 'retrieve_message_list') {
+	$messages = $posts->get_recent_messages();
+	echo json_encode($messages);
+
+  // Load message from sidebar on Message From Mary
+} else if ($action == 'retrieve_message') {
+	$id = $_POST['message_id'];
+	$message = $posts->get_post_by_id($id);
+	echo json_encode($message);
+
 } else if ($action == 'delete_post') {
 	$id = $_POST['post_id'];
 	$posts->delete_post($id);
