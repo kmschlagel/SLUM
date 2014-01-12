@@ -40,8 +40,8 @@
     </div> <!--end sidebar-->
     <div id="control-buttons">
         <ul>
-            <li><a href="#">&larr; Prev</a></li>
-            <li><a href="#">Next &rarr;</a></li>
+            <li id='prev'>&larr; Prev</li>
+            <li id='next'>Next &rarr;</li>
         </ul>
     </div>
   	

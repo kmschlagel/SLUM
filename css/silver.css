@@ -544,7 +544,7 @@ Message from Mary posts
 
 #posts li {
 	line-height: 16px;
-    color: #C9A68F; 
+    color: #C9A68F;
 }
 
 #posts li:hover {
@@ -563,6 +563,8 @@ Message from Mary posts
     float: left;
     margin-right: 40px;
     list-style-type: none;
+    color: #C9A68F;
+    cursor: pointer;
 }
 
 
