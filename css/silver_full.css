@@ -231,7 +231,7 @@ body {
 	width: 528px;
 	min-height: 400px;
 	float: left;
-	/*border: solid 1px red;*/
+	border: solid 1px red;
 }
 
 #main p {

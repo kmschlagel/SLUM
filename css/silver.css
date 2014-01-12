@@ -264,6 +264,7 @@ main content div
 ***********/
 
 #content {
+    position: relative;
 	width: 100%;
 	margin: 40px auto;
 	min-height: 600px;
@@ -434,7 +435,7 @@ div with worship schedule
 
 #worship li, #posts li {
 	list-style: none;
-	color: #C9A68F;
+	color: #ffffff;
 	text-align:center;
 	padding: 5px 0px;
 	cursor: pointer;
@@ -535,8 +536,29 @@ Message from Mary posts
 }
 
 #posts li {
-	line-height: 16px;	
+	line-height: 16px;
+    color: #C9A68F; 
 }
+
+#posts li:hover {
+	text-decoration:underline;
+ 
+}
+
+#control-buttons {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    /*border: solid 1px green;*/
+}
+
+#control-buttons li {
+    float: left;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+
 
 /***************
 Form styling

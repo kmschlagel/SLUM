@@ -1,12 +1,13 @@
 <?php include 'header.php'; ?>
 <script type='text/javascript' src='scripts/jquery-dateFormat.js'></script>
 
-<div id="content">
+<div id="content" class="clearfix">
 
     <div id="main">
-
-
+    
+        
     </div> <!--end main-->
+       
 	<div id="sidebar">
         
           <div id="worship">         
@@ -37,8 +38,15 @@
          </div>
                
     </div> <!--end sidebar-->
-    	
-</div> <!-- /content -->  
+    <div id="control-buttons">
+        <ul>
+            <li><a href="#">&larr; Prev</a></li>
+            <li><a href="#">Next &rarr;</a></li>
+        </ul>
+    </div>
+  	
+</div> <!-- /content --> 
+ 
 
 <script type="text/javascript" src="admin/scripts/message.js"></script>
 
