@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
-        
+<script type='text/javascript' src='scripts/jquery-dateFormat.js'></script>
+
 <div id="content">
 
     <div id="main">
@@ -31,36 +32,14 @@
          <div id="posts">
          	 <h4>Recent Posts</h4>
          	<ul>
-            	<li><a href="#">"Title of Recent Post" <span>(1.12.14)</span></a></li>
-                <li><a href="#">"Title of Another Post" <span>(1.15.14)</span></a></li>
-                <li><a href="#">"Title of Another Recent Post" <span>(1.17.14)</span></a></li>
-                <li><a href="#">"Title of Another Post" <span>(1.20.14)</span></a></li>
-                <li><a href="#">"Another Post with a Longer Title" <span>(1.24.14)</span></a></li>
-            </ul>
+          <!-- List populated by ListMessages() in message.js -->
+          </ul>
          </div>
                
     </div> <!--end sidebar-->
     	
 </div> <!-- /content -->  
 
-<script>
-// Retrieves more recent "message" post from database and displays it
-
-function RetrieveLastPost() {
-  var dataString = 'action=retrieve_post_by_type&post_type=message';
-
-  $.ajax({
-    type: "POST",
-    url: "admin/index.php",
-    data: dataString,
-    dataType: 'json',
-    success: function(data) {
-      $("#main").html(data.content);
-    }
-  })
-};
-RetrieveLastPost();
-
-</script>
+<script type="text/javascript" src="admin/scripts/message.js"></script>
 
 <?php include 'footer.php'; ?>

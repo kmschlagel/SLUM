@@ -109,6 +109,19 @@ class Posts{
 		}
 	}
 
+	public function get_recent_messages() {
+		$query = "SELECT id, title, datetime FROM posts WHERE id != 1
+					AND type = 'message'";
+		try {
+			$result = $this->db->query($query);
+			$result = $result->fetchAll();
+			return $result;
+		}
+		catch(PDOException $e) {
+			die($e->getMessage());
+		}
+	}
+
 	public function delete_post($id) {
 		$query = $this->db->prepare("DELETE FROM posts WHERE id = ?");
 		$query->bindValue(1, $id);

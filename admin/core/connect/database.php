@@ -2,9 +2,9 @@
 
     $config = array(
       'host'	=> 'localhost',
-      'username'	=> 'root',  //Fill in your username, password and database name.
-      'password'	=> '',
-      'dbname'          => 'db505127031'
+      'username'	=> 'slum',  //Fill in your username, password and database name.
+      'password'	=> 'slum',
+      'dbname'          => 'silver_lake'
     );
 
     $db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['dbname'], $config['username'], $config['password']);
