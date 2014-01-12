@@ -33,8 +33,8 @@
          <div id="posts">
          	 <h4>Recent Posts</h4>
          	<ul>
-          <!-- List populated by ListMessages() in message.js -->
-          </ul>
+            <!-- List populated by ListMessages() in message.js -->
+            </ul>
          </div>
                
     </div> <!--end sidebar-->

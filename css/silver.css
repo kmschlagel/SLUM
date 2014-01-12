@@ -421,7 +421,7 @@ content div on right
 /***********
 div with worship schedule
 ************/
-#worship, #posts {
+#worship {
 	width: 100%;
 	float: right;
 	/*border: solid 1px #666;*/
@@ -429,7 +429,7 @@ div with worship schedule
 }
 
 
-#worship ul, #posts ul {
+#worship ul {
 	width: 100%;
 }
 
@@ -527,8 +527,15 @@ Message from Mary posts
 *******************/
 
 #posts {
+    width: 100%;
 	float: right;
 	padding-top: 25px;
+    height: 350px;
+    overflow: scroll;
+}
+
+#posts ul {
+    width: 100%;
 }
 
 #posts span {
