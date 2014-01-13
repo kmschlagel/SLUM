@@ -79,7 +79,7 @@ $('#control-buttons li').click(function() {
     if (current.previousSibling.id) {
       var prev = current.previousSibling.id;
       RetrieveMessage(prev);
-      // God to top of page
+      // Go to top of page
       $('html, body').animate({scrollTop: 0 }, 310);
     } else {
       alert('This is the newest message.');
