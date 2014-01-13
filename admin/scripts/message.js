@@ -44,10 +44,11 @@ function ListMessages() {
         // This date formatting requires the dateFormat jquery library,
         // which is linked to at the top of message.php
         var date = $.format.date(data[message].datetime, "MMMM dd, yyyy")
-        $("#posts ul").append("<li id=" + data[message].id + ">" + data[message].title + "<br>"
+        $("#posts ul").append("<li id=" + data[message].id + ">" +
+                              data[message].title + "<br>"
                               + date + "</li>");
       }
-      //Assign event handler after creation of list:
+      //Assign click-event handler after creation of list:
       $('#posts li').click(function() {
         var id = $(this).attr('id');
         RetrieveMessage(id);
@@ -60,16 +61,30 @@ function ListMessages() {
 $('#control-buttons li').click(function() {
   var current_message = $('#message').attr('value');
   var direction = $(this).attr('id');
+  var current = $("#" + current_message).get(0);
   if (direction == 'next') {
-    current = $("#" + current_message).get(0);
+    // Check if next post exits
     if (current.nextSibling) {
       next = current.nextSibling.id;
       RetrieveMessage(next);
+      // Go to top of page
+      $('html, body').animate({scrollTop: 0 }, 310);
     } else {
       alert('There are no more posts.');
     }
   }
-  // Continue here with prev direction
+  else if (direction == 'prev') {
+    test = current.previousSibling;
+    // Check if previous post exists
+    if (current.previousSibling.id) {
+      var prev = current.previousSibling.id;
+      RetrieveMessage(prev);
+      // God to top of page
+      $('html, body').animate({scrollTop: 0 }, 310);
+    } else {
+      alert('This is the newest message.');
+    }
+  }
 });
 
 // Load most current post on page load.
