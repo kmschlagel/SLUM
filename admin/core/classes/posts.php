@@ -111,7 +111,7 @@ class Posts{
 
 	public function get_recent_messages() {
 		$query = "SELECT id, title, datetime FROM posts WHERE id != 1
-					AND type = 'message'";
+					AND type = 'message' ORDER BY id DESC";
 		try {
 			$result = $this->db->query($query);
 			$result = $result->fetchAll();
