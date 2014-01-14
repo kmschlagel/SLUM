@@ -4,7 +4,7 @@
 <div id="content" class="clearfix">
 
     <div id="main">
-    
+    <h2>Message from Mary</h2>
         
     </div> <!--end main-->
        
