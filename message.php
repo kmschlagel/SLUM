@@ -2,9 +2,10 @@
 <script type='text/javascript' src='scripts/jquery-dateFormat.js'></script>
 
 <div id="content" class="clearfix">
-
     <div id="main">
     <h2>Message from Mary</h2>
+    <div id="title"><!-- Filled dynamically from message.js --></div>
+    <div id="message_text"><!-- Filled dynamically from message.js --></div>
         
     </div> <!--end main-->
        

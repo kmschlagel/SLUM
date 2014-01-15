@@ -8,7 +8,8 @@ function RetrieveLastPost() {
     data: dataString,
     dataType: 'json',
     success: function(data) {
-      $("#main").html("<div id='message' value=" + data.id + ">" + data.content
+      $("#title").html("<h3>" + data.title + "</h3>");
+      $("#message_text").append("<div id='message' value=" + data.id + ">" + data.content
                       + "</div");
     }
   });
@@ -24,7 +25,8 @@ function RetrieveMessage(ID) {
     data: dataString,
     dataType: 'json',
     success: function(data) {
-      $("#main").html("<div id='message' value=" + data.id + ">" + data.content
+      $("#title").html("<h3>" + data.title + "</h3>");
+      $("#message_text").html("<div id='message' value=" + data.id + ">" + data.content
                     + "</div");
     }
   });
