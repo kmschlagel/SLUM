@@ -41,8 +41,8 @@
     </div> <!--end sidebar-->
     <div id="control-buttons">
         <ul>
-            <li id='prev'>&larr; Prev</li>
-            <li id='next'>Next &rarr;</li>
+            <li id='prev'>&larr; Older Posts</li>
+            <li id='next'>Newer Posts &rarr;</li>
         </ul>
     </div>
   	

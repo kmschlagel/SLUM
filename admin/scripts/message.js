@@ -64,23 +64,23 @@ $('#control-buttons li').click(function() {
   var current_message = $('#message').attr('value');
   var direction = $(this).attr('id');
   var current = $("#" + current_message).get(0);
-  if (direction == 'next') {
-    // Check if next post exits
+  if (direction == 'prev') {
+    // Check if previous post exits
     if (current.nextSibling) {
-      next = current.nextSibling.id;
-      RetrieveMessage(next);
+      prev = current.nextSibling.id;
+      RetrieveMessage(prev);
       // Go to top of page
       $('html, body').animate({scrollTop: 0 }, 310);
     } else {
       alert('There are no more posts.');
     }
   }
-  else if (direction == 'prev') {
+  else if (direction == 'next') {
     test = current.previousSibling;
-    // Check if previous post exists
+    // Check if next post exists
     if (current.previousSibling.id) {
-      var prev = current.previousSibling.id;
-      RetrieveMessage(prev);
+      var next = current.previousSibling.id;
+      RetrieveMessage(next);
       // Go to top of page
       $('html, body').animate({scrollTop: 0 }, 310);
     } else {
