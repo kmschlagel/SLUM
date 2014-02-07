@@ -6,9 +6,7 @@ $templates = array(
 		"description" => "A message from Mary!",
 		"content" => // What follows is the raw html for the template
 		"<div id='message'>
-		<h2>Message from Mary</h2>
-	    <h4>Bent</h4>
-	    <ul>
+		<ul>
 	    <li>Silver Lake UMC; June 30, 2013</li>
 	    <li>Text: Luke 13:10-17</li>
 	    <li>Rev. Mary Kitchell</li>
