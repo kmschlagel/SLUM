@@ -14,12 +14,10 @@
     <script type="text/javascript" src="scripts/simple-jquery-slideshow/simple-jquery-slideshow/jquery-1.2.6.min.js"></script>
     <script type="text/javascript" src="scripts/menueffect/script.js"></script>
     <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="scripts/validate.js"></script>
   
   
 <script type="text/javascript">
-  
-  
-  
 /*** 
     Simple jQuery Slideshow Script
     Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)

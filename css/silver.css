@@ -467,7 +467,7 @@ div with map and address
 	
 }
 
-#findus p, #vbs {
+#findus p {
 	text-align: center;
 
 }
@@ -502,6 +502,16 @@ VBS logo and form registration
 #vbs {
 	float: right;
 	margin: 40px 15px 20px 25px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#vbs img {
+    padding: 10px 0px 10px 0px;
+}
+ #vbs a {
+    color: #666666;
+    text-decoration: none !important;
 }
 
 form {
