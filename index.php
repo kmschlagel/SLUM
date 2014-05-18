@@ -50,6 +50,13 @@
                </div> <!--end map-->
        
           </div> <!-- /findus -->
+        
+          <div id="vbs">
+                <h4>Sign Up:<br>VBS 2014</h4>
+              <p>Monday, August 18th - Thursday, August 21st</p>
+                <a><img src="images/VBS/logo-workshopofwonders-index.jpg" width="160" height="126"></a>
+               </div> <!--end map-->
+           </div> <!-- /findus -->
     </div> <!--end sidebar-->
 </div> <!-- /content -->  
 
