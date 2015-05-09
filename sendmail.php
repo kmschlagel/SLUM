@@ -2,7 +2,7 @@
 $name = $_POST['name'];
 
 
-$to = 'kmaillette@gmail.com';
+$to = 'gteastin@msn.com';
 $subject = 'New VBS Student ';
 
 $message = "Name: $name\n";
@@ -24,6 +24,7 @@ $message .= 'Fifth Child Age: ' . $_POST['age5'] . "\n";
 $message .= 'Sixth Child Name ' . $_POST['cname6'] . "\n";
 $message .= 'Sixth Child Age: ' . $_POST['age6'] . "\n";
 $message .= 'Special Needs: ' . $_POST['needs'] . "\n";
+$message .= 'Pair with Friends: ' . $_POST['friends'] . "\n";
 $message .= 'How did you hear?: ' . $_POST['hear_about_VBS'] . "\n";
 $message .= 'I would like information: ' . $_POST['information'] . "\n";
 $message .= "\n";
@@ -35,5 +36,5 @@ $headers =	'From: <' . $_POST['email'] . '> '. $name ."\r\n" .
 
 
 mail($to, $subject, $message, $headers);
-header('location: http://www.walkadock.com/thankyou.php');
+header('location: http://www.silverlakeunitedmethodist.org/thankyou.php');
 ?>

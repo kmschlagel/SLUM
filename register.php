@@ -2,7 +2,7 @@
 
 <div id="content">
     <div id="main">
-        <img src="images/VBS/logo-workshopofwonders-cropped.jpg" width="185" height="146" style="float: right;">
+        <img src="images/VBS/GForce-lg.png" width="187" height="51" style="float: right;">
 
         <h3>Vacation Bible School Registration</h3>
 
@@ -12,7 +12,7 @@
                 class="bold">Monday August 18<sup>th</sup> - Thursday August 21<sup>st</sup></span><br><span
                 class="bold">6:00pm - 8:00pm daily</span></p>
 
-        <h3 style="color:#C9A68F; margin-top: 10px;">Registration Deadline: August 13<sup>th</sup></h3>
+        <h3 style="color:#C9A68F; margin-top: 10px;">Registration Deadline: August 9<sup>th</sup></h3>
 
         <form id="register" name="register" action="sendmail.php" method="post" onSubmit="return checkme();">
             <fieldset>
@@ -33,7 +33,7 @@
                         <input type="text" name="phone" id="phone" maxlength="12"/>
                     </li>
                     <li>
-                        <label for="ephone">Emergency Contact Number*</label>
+                        <label for="ephone">Emergency Contact Number* (999-999-9999)</label>
                         <input type="text" name="ephone" id="ephone" maxlength="12"/>
                     </li>
                     <li>
@@ -92,6 +92,10 @@
                         <label for="needs" class="lbl">List any Special Needs or Allergies</label>
                         <textarea name="needs" id="needs" cols="30" rows="10"></textarea>
                     </li>
+                    <li>
+                        <label for="needs" class="lbl">Pair child with any friends? List names.</label>
+                        <textarea name="friends" id="friends" cols="30" rows="10"></textarea>
+                    </li>
                     <li><label>How did you hear about our VBS?*</label><br>
                         <select name="hear_about_VBS" id="hear_about_VBS" data-theme="a">
                             <option value="none">
@@ -114,24 +118,10 @@
                             </option>
                         </select>
                     </li>
-                    <li><label>I would like information on the following:</label><br>
-                        <select name="information" id="information" data-theme="a">
-                            <option value="none">
-                                Choose One
-                            </option>
-                            <option value="membership">
-                                Church Membership
-                            </option>
-                            <option value="elementary_school">
-                                Elementary School
-                            </option>
-                            <option value="pre_kindergarten">
-                                Pre-Kindergarten
-                            </option>
-                            <option value="sunday_school">
-                                Sunday School
-                            </option>
-                        </select>
+                    <li class="checkbox">
+                        <label class="checkbox">I would like information on the following:</label><br>
+                        <input type="checkbox" name="information" value="Church Membership"/><span style="font-size: 90%">Church Membership</span><br>
+                        <input type="checkbox" name="information" value="Sunday School"/><span style="font-size: 90%">Sunday School</span>
                     </li>
                     <li>
                         <label for="submit">&nbsp;</label>

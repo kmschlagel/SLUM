@@ -52,10 +52,10 @@
           </div> <!-- /findus -->
         
           <div id="vbs">
-                <h4><a href="register.php">Sign Up:<br>VBS 2014</a></h4>
-              <p>Monday, August 18<sup>th</sup> - Thursday, August 21<sup>st</sup></p>
-                <a href="register.php"><img src="images/VBS/logo-workshopofwonders-index.jpg" width="160" height="126"></a>
-              <p>Registration Deadline: August 13<sup>th</sup></p>
+              <h4><a href="register.php">Sign Up:<br>VBS 2015</a></h4>
+              <p>Sunday, August 16<sup>th</sup> - Thursday, August 20<sup>th</sup></p>
+                <a href="register.php"><img src="images/VBS/GForce-lg.png" width="187" height="51"></a>
+              <p>Registration Deadline: August 9<sup>th</sup></p>
                </div> <!--end map-->
            </div> <!-- /findus -->
     </div> <!--end sidebar-->
