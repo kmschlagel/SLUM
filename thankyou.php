@@ -2,14 +2,14 @@
 
 <div id="content">
     <div id="main">
-        <img src="images/VBS/GForce-lg.png" width="187" height="51" style="float: right;">
+        <img src="images/VBS/SurfShack.jpg" width="150" style="float: right;">
 
         <h3>Vacation Bible School Registration</h3>
 
-        <p>Invite your children, grandchildren, and friends to Workshop of Wonders this summer at Vacation Bible School!
-            In Workshop of Wonders, kids from ages three through 6th Grade will experience
+        <p>Invite your children, grandchildren, and friends to Surf Shack this summer at Vacation Bible School!
+            In Surf Shack, kids from ages three through 6th Grade will experience
             the love of Jesus through Bible stories, games, fun crafts, music, discovery time, and dinner.<br><span
-                class="bold">Sunday August 16<sup>th</sup> - Thursday August 20<sup>th</sup></span><br><span
+                class="bold">Sunday, August 14<sup>th</sup> - Thursday, August 18<sup>th</sup></span><br><span
                 class="bold">6:00pm - 8:00pm daily</span></p>
 
         <h3 style="color:#C9A68F; margin-top: 10px;">Thank you for Registering.</h3>
